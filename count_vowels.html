@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Count Vowels</title>
+</head>
+<body>
+  <h1>Count the Number of Vowels in a String using Regex</h1>
+  
+</body>
+<script type="text/javascript">
+var string =prompt("Please enter a string");
+const reg = /[aeiou]/gi;
+var chars = string.match(reg);
+console.log(chars.join(','));
+console.log(chars.length);
+
+</script>
+</html>

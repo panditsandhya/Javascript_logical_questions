@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replace Character of a string</title>
+</head>
+<body>
+  <h1>Replace Character of a string</h1>
+  
+</body>
+<script type="text/javascript">
+  var string = "Mr. Red has red car and a red bike";
+  console.log(string);
+  var reg = new RegExp('Red','gi');
+  var newString = string.replace(reg,'blue');
+  console.log(newString);
+</script>
+</html>

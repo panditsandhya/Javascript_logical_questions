@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area of Traingle</title>
+</head>
+<body>
+  <h1>Find the Area of Traingle</h1>
+  
+</body>
+<script type="text/javascript">
+  //To find the area of right angled traingle
+  //General Formula : (base * height)/2
+
+  // var base = prompt("Please enter the base value","");
+  // var height = prompt("Please enter the height value","");
+  // var area = (base * height)/2;
+  // document.write("Base: "+ base + " height: " + height + " area is: " +area);
+
+  //To find the area of regular traingle
+  //General formula: s = (a+b+c)/2
+  //Area = [s(s-a)*(s-b)*(s-c)]/2
+  var a = 10;
+  var b = 10;
+  var c = 10;
+  var s = (a+b+c)/2;
+  var temp = s*(s-a)*(s-b)*(s-c);
+  var area = Math.sqrt(temp);
+  document.write(area);
+  // console.log(area);
+
+
+
+</script>
+</html>

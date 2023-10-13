@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factors of number</title>
+</head>
+<body>
+  <h1>Find the Factors of a Number</h1>
+  
+</body>
+<script type="text/javascript">
+  //The factor number should exactly divide the number(with 0 remainder)
+  //for Example 12 - 1,2,3,4,6 and 12 , 12 is divible by these numbers and give remainder 0
+  var number = prompt("Please enter a number");
+  for(var i = 1; i <= number; i++){
+    if(number%i == 0){
+      console.log(i);
+    }
+  }
+
+
+</script>
+</html>

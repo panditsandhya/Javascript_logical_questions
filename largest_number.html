@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Largest Number among three numbers</title>
+</head>
+<body>
+  <h1>Largest Number among three numbers</h1>
+  
+</body>
+<script type="text/javascript">
+
+
+  // var a = prompt("Please enter the first number");
+  // var b = prompt("Please enter the second number");
+  // var c = prompt("Please enter the third number");
+  // var x = Math.max(a,b,c);
+  // document.write(`${a},${b},${c}: Largest = ${x}`);
+
+  function check(p,q,r){
+    if(p>= q && p>= r){
+      return p;
+    }else if(q>= p && q>= r){
+      return q;
+    }else{
+      return r;
+    }
+  }
+  var a = prompt("Please enter the first number");
+  var b = prompt("Please enter the second number");
+  var c = prompt("Please enter the third number");
+  var x = check(a,b,c);
+  document.write(`${a},${b},${c}: Largest = ${x}`);
+
+ 
+
+
+</script>
+</html>

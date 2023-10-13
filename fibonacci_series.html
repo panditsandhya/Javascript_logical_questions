@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fibonacci Sequence</title>
+</head>
+<body>
+  <h1>Fibonacci Sequence</h1>
+  
+</body>
+<script type="text/javascript">
+  //fibonacci series: 0,1,1,2,3,5,8,13,21,....
+  var a = 0, b = 1;
+  console.log(a);
+  console.log(b);
+  for(var i = 0; i <= 3; i++){
+    var temp = a + b; //1+2 // 3
+    console.log(temp);
+    a = b ; // 1 => 2
+    b = temp; // 2 => 3
+  }
+
+</script>
+</html>

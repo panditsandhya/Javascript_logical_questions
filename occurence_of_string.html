@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To check occurrences in a string</title>
+</head>
+<body>
+  <h1>To Check the number of occurrences of a character in a string using for loop</h1>
+  
+</body>
+<script type="text/javascript">
+  //Hello -> l ->2
+  var string = prompt("Please enter a string");
+  var letter = prompt("Please enter a letter");
+  let strLen = string.length;
+  var counter = 0;
+  for(var i = 0; i < strLen; i++){
+    if(string[i] == letter){
+      counter++;
+    }
+  }
+  console.log(`${string} => ${letter} => ${counter}`);
+
+</script>
+</html>

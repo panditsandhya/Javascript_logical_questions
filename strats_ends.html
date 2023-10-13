@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starts and Ends with certains character</title>
+</head>
+<body>
+  <h1>To check whether a string Starts and Ends with certain characters</h1>
+  
+</body>
+<script type="text/javascript">
+  //string.startsWith() - true/false
+  //string.endsWith() - true/false
+  
+  var string = prompt("Please enter a string");
+  var testStart = string.startsWith('S');
+  var testEnd = string.endsWith('a');
+  if(testStart == true && testEnd == true){
+    console.log(`${string} starts with S and ends with a`);
+  }else if(testStart == true && testEnd == false){
+    console.log(`${string} starts with S`);
+  }else if(testStart == false && testEnd == true){
+    console.log(`${string} ends with a`);
+  }else{
+    console.log(`${string} neither starts with S nor ends with a`);
+  }
+
+</script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number</title>
+</head>
+<body>
+  <!-- <h1>To Generate a Random Number</h1> -->
+  <h1>Generate 4 digit OTP</h1>
+  
+</body>
+<script type="text/javascript">
+  //Math.random() returns a random floating-point number ranging from 0 to less than 1
+  //Get a random number between range
+  //Math.random()*(highestNumber - lowestNumber) + lowestNumber
+  
+  // var x = Math.random();
+  // console.log("Before calculation " +x); 
+  // // x = x * (10-1) + 1;
+  // x = x * 10000;
+  // console.log("After calculation " +x);
+  // console.log("Floor calculation " +Math.floor(x));
+
+  //Generate 4 digit OTP
+  var x = Math.random();
+  x = x * 10000;
+
+  document.write("Four Digit OTP: " +Math.floor(x));
+
+
+</script>
+</html>

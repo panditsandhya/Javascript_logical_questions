@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome using Array methods</title>
+</head>
+<body>
+  <h1>To Palindrome using Array methods</h1>
+  
+</body>
+<script type="text/javascript">
+  // A string is Palindrome if it is read the same from forward or backward
+  //Example - dad,madam
+  //split() , reverse(), join() method
+  var string = prompt('Please enter a string');
+  var stringArray = string.split(''); 
+  var stringArrayRev = stringArray.reverse();
+  var revString = stringArrayRev.join('');
+  if(string === revString){
+    console.log(`${string}: Is palindrome`);
+  }else{
+    console.log(`${string}: Is not palindrome`);
+  }
+
+</script>
+</html>

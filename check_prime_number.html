@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime number check</title>
+</head>
+<body>
+  <!-- A prime number is a positive number that is only divisible by 1 and itself . for example 2,3,5,7,11 are the first few prime numbers -->
+  <h1>Check if a number is a prime number</h1>
+  
+</body>
+<script type="text/javascript">
+
+  var number = prompt("Please enter a number");
+  if(number == 1){
+    document.write(`${value} is neither prime nor composite`);
+  }else if(number < 1){
+    document.write(`${value} is not a prime number`);
+}else{
+  //number 15
+  for(var i = 2; i < number; i++){
+    //15%2 = R:1
+    //15/2 = Q:7
+    if(number%i == 0){
+      var res = `${number} is not a prime number`;
+      break;
+    }else{
+      var res = `${number} is a prime number`;
+    }
+  }
+  document.write(res);
+}
+
+</script>
+</html>
